@@ -1,16 +1,6 @@
 import './index.html'
 import './app.scss'
 
-/*
-import xs from 'xstream'
-
-const one = xs.of(1)
-const two = xs.of(2)
-
-combine({one, two}).subscribe({next: (it) => console.log(it)})
-*/
-
-
 import 'whatwg-fetch'
 
 import { h, render, Component } from 'preact'
